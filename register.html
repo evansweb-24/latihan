@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Register</title>
+    <link rel="stylesheet" href="gaya.css" />
+</head>
+
+<body>
+    <h1 align="center">Form Register</h1>
+    <div class="container">
+        <!-- This is form Register -->
+        <form action="" id="form-register" method="post" enctype="multipart/form-data">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Masukkan username" required />
+
+            <label for="gmail">Gmail</label>
+            <input type="email" name="gmail" id="gmail" placeholder="Masukkan gmail" required />
+
+            <label for="tanggal-lahir">Tanggal Lahir</label>
+            <input type="date" name="tanggal-lahir" id="tanggal-lahir" required />
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Masukkan password" required />
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm password"
+                required />
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <ol>
+            <li id="gmailResult"></li>
+            <li id="usernameResult"></li>
+            <li id="passwordResult"></li>
+            <li id="confirmpasswordResult"></li>
+        </ol>
+    </div>
+
+    <script src="Funciton.js"></script>
+
+</body>
+
+</html>

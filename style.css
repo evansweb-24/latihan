@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px  solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+button {
+    background-color: aqua;
+    color: white;
+    padding: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: greenyellow;
+}
+
+label{
+    font-weight: bold;
+}
